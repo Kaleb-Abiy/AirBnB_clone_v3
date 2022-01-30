@@ -39,8 +39,10 @@ create the first abstracted storage engine of the project: File storage.
 create all unittests to validate all our classes and storage engine
 Create a data model
 Manage (create, update, destroy, etc) objects via a console/command interpreter
-Store and persist objects to files (JSON files) S
+Store and persist objects to files (JSON files) 
+
 Description of the command interpreter
+
 Commands	Description
 quit	Quits the console
 Ctrl+D	Quits the console
@@ -56,10 +58,11 @@ update <class> <id> <attribute name> "<attribute value>"	Updates an object with 
 <class>.destroy(<ID>)	Same as destroy <class> <ID>
 <class>.update(<ID>, <attribute name>, <attribute value>	Same as update <class> <ID> <attribute name> <attribute value>
 <class>.update(<ID>, <dictionary representation>)	Updates an objects based on a dictionary representation of attribute names and values
+  
 General Execution
 Your shell should work like this in interactive mode:
-
-$ ./console.py
+  
+  $ ./console.py
 (hbnb) help
 
 Documented commands (type help <topic>):
@@ -90,3 +93,5 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb)
 $
+
+ 
